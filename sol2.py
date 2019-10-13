@@ -17,3 +17,8 @@ def fund(l,k):
         return x
     else:
         return None
+
+
+l=eval(input())
+k=int(input())
+print(fund(l,k))
